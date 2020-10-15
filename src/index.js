@@ -47,6 +47,30 @@ const TwoIcon = createInlineStyledElementTool({
     toolIcon: require('../assets/2-icon.svg').default
 });
 
+const CircleIcon = createInlineStyledElementTool({
+    toolClass: 'circle-icon',
+    toolTag: 'SPAN',
+    toolIcon: require('../assets/circle-icon.svg').default
+});
+
+const CircleCheckedIcon = createInlineStyledElementTool({
+    toolClass: 'circle-checked-icon',
+    toolTag: 'SPAN',
+    toolIcon: require('../assets/circle-checked-icon.svg').default
+});
+
+const SquareIcon = createInlineStyledElementTool({
+    toolClass: 'square-icon',
+    toolTag: 'SPAN',
+    toolIcon: require('../assets/square-icon.svg').default
+});
+
+const SquareCheckedIcon = createInlineStyledElementTool({
+    toolClass: 'square-checked-icon',
+    toolTag: 'SPAN',
+    toolIcon: require('../assets/square-checked-icon.svg').default
+});
+
 export {
     InfoIcon,
     QuestionIcon,
@@ -54,5 +78,9 @@ export {
     ExternalLinkIcon,
     InlineButton,
     OneIcon,
-    TwoIcon
+    TwoIcon,
+    CircleIcon,
+    CircleCheckedIcon,
+    SquareIcon,
+    SquareCheckedIcon
 }

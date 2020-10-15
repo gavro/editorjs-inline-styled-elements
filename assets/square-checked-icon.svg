@@ -1,0 +1,10 @@
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.28371,0,0,1.28371,-2.83947,-1.15368)">
+        <g transform="matrix(0.127185,0,0,0.127185,-2.39142,1.71938)">
+            <path d="M66.24,29.404L88.88,50.804L128.648,5.275L139.452,14.811L90.17,75.034L55.433,40.234L66.239,29.404L66.24,29.404Z" style="fill:rgb(48,123,187);"/>
+        </g>
+        <g transform="matrix(0.778992,0,0,0.778992,2.21192,0.898708)">
+            <path d="M15.243,0.683L13.93,2.186L2.185,2.186L2.185,14.815L14.816,14.815L14.816,7.088L16.317,5.253L16.317,16.318L0.683,16.318L0.683,0.683L15.243,0.683Z" style="fill:rgb(85,85,85);"/>
+        </g>
+    </g>
+</svg>

@@ -1,9 +1,13 @@
 .info-icon,
 .question-icon,
 .d-icon,
-.external-link-ico,
+.external-link-icon,
 .one-icon,
-.two-icon {
+.two-icon,
+.square-icon,
+.square-checked-icon,
+.circle-icon,
+.circle-checked-icon {
     overflow: hidden;
     white-space: nowrap;
     width: 18px;
@@ -15,6 +19,11 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+}
+
+.square-checked-icon,
+.circle-checked-icon {
+    width: 19px;
 }
 
 .info-icon {
@@ -39,6 +48,22 @@
 
 .two-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17px' height='17px' viewBox='0 0 17 17' version='1.1' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1.28371,0,0,1.28371,-2.83947,-1.15368)'%3E%3Cpath d='M8.833,1.431C12.194,1.431 14.923,4.159 14.923,7.52C14.923,10.881 12.194,13.61 8.833,13.61C5.472,13.61 2.744,10.881 2.744,7.52C2.744,4.159 5.472,1.431 8.833,1.431Z' style='fill:rgb(119,119,119);'/%3E%3Cg transform='matrix(0.778992,0,0,0.778992,0.672636,3.61274)'%3E%3Cg transform='matrix(12,0,0,12,7.2745,9.32893)'%3E%3Cpath d='M0.503,-0.084L0.503,-0L0.03,-0C0.03,-0.021 0.033,-0.042 0.041,-0.061C0.053,-0.093 0.072,-0.125 0.098,-0.156C0.125,-0.188 0.163,-0.224 0.213,-0.265C0.291,-0.328 0.344,-0.379 0.371,-0.416C0.398,-0.454 0.412,-0.489 0.412,-0.522C0.412,-0.557 0.4,-0.586 0.375,-0.61C0.35,-0.634 0.317,-0.646 0.277,-0.646C0.235,-0.646 0.201,-0.633 0.176,-0.608C0.15,-0.583 0.138,-0.547 0.137,-0.502L0.047,-0.512C0.053,-0.579 0.076,-0.63 0.117,-0.666C0.157,-0.701 0.211,-0.719 0.279,-0.719C0.348,-0.719 0.402,-0.7 0.442,-0.662C0.482,-0.624 0.502,-0.576 0.502,-0.52C0.502,-0.491 0.497,-0.463 0.485,-0.436C0.473,-0.408 0.454,-0.379 0.427,-0.348C0.399,-0.318 0.354,-0.276 0.291,-0.222C0.238,-0.178 0.204,-0.148 0.189,-0.132C0.174,-0.116 0.162,-0.1 0.152,-0.084L0.503,-0.084Z' style='fill:white;fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.square-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17px' height='17px' viewBox='0 0 17 17' version='1.1' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg%3E%3Cpath d='M16.317,0.683L0.683,0.683L0.683,16.318L16.317,16.318L16.317,0.683ZM14.816,2.186L2.185,2.186L2.185,14.815L14.816,14.815L14.816,2.186Z' style='fill:rgb(233,81,0);fill-opacity:0.75;'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.square-checked-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18px' height='17px' viewBox='0 0 18 17' version='1.1' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1.28371,0,0,1.28371,-2.83947,-1.15368)'%3E%3Cg transform='matrix(0.127185,0,0,0.127185,-2.39142,1.71938)'%3E%3Cpath d='M66.24,29.404L88.88,50.804L128.648,5.275L139.452,14.811L90.17,75.034L55.433,40.234L66.239,29.404L66.24,29.404Z' style='fill:rgb(48,123,187);'/%3E%3C/g%3E%3Cg transform='matrix(0.778992,0,0,0.778992,2.21192,0.898708)'%3E%3Cpath d='M15.243,0.683L13.93,2.186L2.185,2.186L2.185,14.815L14.816,14.815L14.816,7.088L16.317,5.253L16.317,16.318L0.683,16.318L0.683,0.683L15.243,0.683Z' style='fill:rgb(85,85,85);'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.circle-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17px' height='17px' viewBox='0 0 17 17' version='1.1' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1.28371,0,0,1.28371,-2.83947,-1.15368)'%3E%3Cpath d='M8.833,1.431C12.194,1.431 14.923,4.159 14.923,7.52C14.923,10.881 12.194,13.61 8.833,13.61C5.472,13.61 2.744,10.881 2.744,7.52C2.744,4.159 5.472,1.431 8.833,1.431ZM8.833,2.599C11.549,2.599 13.754,4.804 13.754,7.52C13.754,10.236 11.549,12.441 8.833,12.441C6.117,12.441 3.912,10.236 3.912,7.52C3.912,4.804 6.117,2.599 8.833,2.599Z' style='fill:rgb(233,81,0);fill-opacity:0.6;'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.circle-checked-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18px' height='17px' viewBox='0 0 18 17' version='1.1' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1.28371,0,0,1.28371,-2.83947,-1.15368)'%3E%3Cg transform='matrix(0.127185,0,0,0.127185,-2.39142,1.71938)'%3E%3Cpath d='M66.24,29.404L88.88,50.804L128.648,5.275L139.452,14.811L90.17,75.034L55.433,40.234L66.239,29.404L66.24,29.404Z' style='fill:rgb(48,123,187);fill-opacity:0.75;'/%3E%3C/g%3E%3Cg transform='matrix(0.778992,0,0,0.778992,2.21192,0.898708)'%3E%3Cpath d='M15.848,5.827C16.152,6.661 16.317,7.561 16.317,8.5C16.317,12.814 12.814,16.318 8.5,16.318C4.185,16.318 0.683,12.814 0.683,8.5C0.683,4.185 4.185,0.683 8.5,0.683C10.445,0.683 12.225,1.395 13.593,2.572L12.606,3.701C11.502,2.755 10.067,2.183 8.5,2.183C5.013,2.183 2.182,5.013 2.182,8.5C2.182,11.986 5.013,14.817 8.5,14.817C11.986,14.817 14.817,11.986 14.817,8.5C14.817,8.069 14.773,7.648 14.691,7.241L15.848,5.827Z' style='fill:rgb(85,85,85);fill-opacity:0.75;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
 }
 
 .inline-button {
