@@ -35,10 +35,24 @@ const InlineButton = createInlineStyledElementTool({
     toolIcon: require('../assets/inline-button.svg').default
 });
 
+const OneIcon = createInlineStyledElementTool({
+    toolClass: 'one-icon',
+    toolTag: 'SPAN',
+    toolIcon: require('../assets/1-icon.svg').default
+});
+
+const TwoIcon = createInlineStyledElementTool({
+    toolClass: 'two-icon',
+    toolTag: 'SPAN',
+    toolIcon: require('../assets/2-icon.svg').default
+});
+
 export {
     InfoIcon,
     QuestionIcon,
     DIcon,
     ExternalLinkIcon,
-    InlineButton
+    InlineButton,
+    OneIcon,
+    TwoIcon
 }
